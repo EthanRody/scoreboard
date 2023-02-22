@@ -1,0 +1,42 @@
+@font-face {
+    font-family: clock;
+    src: url(digital-7.ttf);
+}
+
+body {
+    margin: 0;
+    background: #1B244A;
+    color: #EEEEEE;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.counter {
+    font-family: clock;
+    text-align: center;
+    background: #080001;
+    padding: 3px 0px;
+    font-size: 64px;
+    color: #F94F6D;
+    margin: 5px 0px 15px 0px;
+    border-radius: 5px;
+}
+
+.column-header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+    font-size: 32px;
+}
+
+.increment-button {
+    background: #1B244A;
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 4px;
+    padding: 8px;
+}
